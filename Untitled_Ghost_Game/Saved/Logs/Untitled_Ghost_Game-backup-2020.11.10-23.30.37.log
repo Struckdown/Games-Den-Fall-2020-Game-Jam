@@ -1,0 +1,779 @@
+﻿Log file open, 11/10/20 15:53:19
+LogInit: Display: Running engine for game: Untitled_Ghost_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.333673
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 4800HS with Radeon Graphics         , GPU: AMD Radeon(TM) Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:566][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.10-22.53.20:566][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.10-22.53.20:567][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:567][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:572][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.10-22.53.20:572][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.10-22.53.20:573][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.10-22.53.20:574][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.10-22.53.20:575][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.10-22.53.20:575][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.10-22.53.20:575][  0]LogHAL: Display: Platform has ~ 16 GB [16556568576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.10-22.53.20:575][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.10-22.53.20:575][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:575][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.10-22.53.20:576][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.10-22.53.20:577][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Scalability.ini]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.10-22.53.20:578][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.10-22.53.20:579][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.10-22.53.20:579][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.10-22.53.20:579][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.10-22.53.20:579][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Config/Windows/Engine.ini]
+[2020.11.10-22.53.20:579][  0]LogInit: Computer: LAPTOP-ECGG9OL4
+[2020.11.10-22.53.20:579][  0]LogInit: User: edene
+[2020.11.10-22.53.20:579][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.11.10-22.53.20:579][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.10-22.53.20:580][  0]LogMemory: Memory total: Physical=15.4GB (16GB approx)
+[2020.11.10-22.53.20:580][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.10-22.53.20:580][  0]LogMemory: Process Physical Memory: 115.79 MB used, 115.79 MB peak
+[2020.11.10-22.53.20:580][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
+[2020.11.10-22.53.20:580][  0]LogMemory: Physical Memory: 6471.30 MB used,  9318.28 MB free, 15789.57 MB total
+[2020.11.10-22.53.20:580][  0]LogMemory: Virtual Memory: 5186.61 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2020.11.10-22.53.20:658][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.10-22.53.20:761][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.10-22.53.20:763][  0]LogInit: Using OS detected language (en-US).
+[2020.11.10-22.53.20:763][  0]LogInit: Using OS detected locale (en-CA).
+[2020.11.10-22.53.20:770][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.10-22.53.21:181][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.10-22.53.21:270][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.10-22.53.21:270][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.10-22.53.21:688][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.10-22.53.21:688][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.10-22.53.21:688][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.10-22.53.21:688][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.10-22.53.21:870][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 with Max-Q Design' (Feature Level 11_0)
+[2020.11.10-22.53.21:870][  0]LogD3D11RHI:       5980/0/7894 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.10-22.53.21:937][  0]LogD3D11RHI:    1. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2020.11.10-22.53.21:937][  0]LogD3D11RHI:       496/0/7894 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.11.10-22.53.21:941][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.10-22.53.21:941][  0]LogD3D11RHI:       0/0/7894 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.10-22.53.21:941][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.10-22.53.21:955][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.10-22.53.21:955][  0]LogD3D11RHI:     GPU DeviceId: 0x1f12 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.10-22.53.21:955][  0]LogWindows: EnumDisplayDevices:
+[2020.11.10-22.53.21:956][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2020.11.10-22.53.21:956][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2020.11.10-22.53.21:957][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2020.11.10-22.53.21:958][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2020.11.10-22.53.21:958][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060 with Max-Q Design' (P:0 D:0)
+[2020.11.10-22.53.21:959][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060 with Max-Q Design' (P:0 D:0)
+[2020.11.10-22.53.21:959][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060 with Max-Q Design' (P:0 D:0)
+[2020.11.10-22.53.21:960][  0]LogWindows:    7. 'NVIDIA GeForce RTX 2060 with Max-Q Design' (P:0 D:0)
+[2020.11.10-22.53.21:960][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.11.10-22.53.21:960][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 with Max-Q Design
+[2020.11.10-22.53.21:960][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2020.11.10-22.53.21:960][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2020.11.10-22.53.21:960][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.11.10-22.53.22:119][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.10-22.53.22:119][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.10-22.53.22:120][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.10-22.53.22:163][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.10-22.53.22:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.10-22.53.22:880][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.10-22.53.22:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.10-22.53.22:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.10-22.53.22:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.10-22.53.22:985][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.10-22.53.23:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.10-22.53.23:031][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.10-22.53.23:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.10-22.53.23:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.10-22.53.23:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.10-22.53.23:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.10-22.53.23:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.10-22.53.23:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.10-22.53.23:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.10-22.53.23:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.10-22.53.23:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.10-22.53.23:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.10-22.53.23:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.10-22.53.23:319][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.10-22.53.23:336][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.10-22.53.23:480][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Intermediate/Shaders/WorkingDirectory/21196/).
+[2020.11.10-22.53.23:480][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edene/AppData/Local/Temp/UnrealShaderWorkingDir/0B892E824F5CF407EF06C9B1C3546383/'.
+[2020.11.10-22.53.23:482][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.10-22.53.23:482][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.10-22.53.23:482][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.10-22.53.25:493][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.10-22.53.25:598][  0]LogDerivedDataCache: Loaded boot cache 0.11s 76MB C:/Users/edene/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.10-22.53.25:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/edene/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.10-22.53.25:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.10-22.53.25:599][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.10-22.53.25:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.10-22.53.25:599][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.10-22.53.25:630][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.10-22.53.25:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.10-22.53.25:631][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.10-22.53.25:633][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edene/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.10-22.53.25:633][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.10-22.53.25:633][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.10-22.53.25:790][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.10-22.53.25:791][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.10-22.53.25:853][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2020.11.10-22.53.26:457][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.10-22.53.26:727][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.10-22.53.26:727][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.10-22.53.26:727][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.10-22.53.26:727][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.10-22.53.26:727][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.10-22.53.26:762][  0]LogNetVersion: Untitled_Ghost_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4012621431)
+[2020.11.10-22.53.27:775][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022462B1A9C0), frame # 0
+[2020.11.10-22.53.27:775][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000224629EC180), frame # 0
+[2020.11.10-22.53.27:778][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000224629FDC00), frame # 0
+[2020.11.10-22.53.27:902][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.107850 seconds
+[2020.11.10-22.53.27:913][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.10-22.53.27:913][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.10-22.53.27:913][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.10-22.53.28:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.10-22.53.28:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.10-22.53.28:871][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.28:872][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.28:878][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.28:886][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.28:902][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.28:931][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.10-22.53.28:933][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.10-22.53.29:506][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.10-22.53.29:549][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.10-22.53.29:549][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.10-22.53.29:662][  0]LogOcInput: OculusInput pre-init called
+[2020.11.10-22.53.29:687][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.10-22.53.29:687][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.10-22.53.29:836][  0]LogEngine: Initializing Engine...
+[2020.11.10-22.53.29:839][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.10-22.53.29:839][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.10-22.53.29:841][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.10-22.53.30:098][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.10-22.53.30:112][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.10-22.53.30:113][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002246834DC00), frame # 0
+[2020.11.10-22.53.30:113][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000224683A0A40), frame # 0
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.10-22.53.30:129][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.10-22.53.30:129][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.10-22.53.30:130][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.10-22.53.30:130][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.10-22.53.30:733][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-22.53.30:733][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-22.53.30:733][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.10-22.53.30:733][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.10-22.53.30:734][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.11.10-22.53.30:734][  0]LogAudioMixer: Display: 5: BackRight
+[2020.11.10-22.53.30:734][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.11.10-22.53.30:734][  0]LogAudioMixer: Display: 7: SideRight
+[2020.11.10-22.53.31:281][  0]LogAudioMixer: Display: Using Audio Device Headphones (Realtek(R) Audio)
+[2020.11.10-22.53.31:287][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.10-22.53.31:291][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.10-22.53.31:291][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.10-22.53.31:293][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.10-22.53.31:295][  0]LogInit: FAudioDevice initialized.
+[2020.11.10-22.53.31:295][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.10-22.53.31:391][  0]LogDerivedDataCache: Saved boot cache 0.10s 76MB C:/Users/edene/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.10-22.53.31:400][  0]LogInit: Texture streaming: Enabled
+[2020.11.10-22.53.31:433][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.10-22.53.31:433][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.10-22.53.31:437][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.10-22.53.31:554][  0]LogInit: Transaction tracking system initialized
+[2020.11.10-22.53.31:599][  0]BlueprintLog: New page: Editor Load
+[2020.11.10-22.53.31:743][  0]LocalizationService: Localization service is disabled
+[2020.11.10-22.53.31:921][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.10-22.53.31:922][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.10-22.53.32:104][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.10-22.53.32:104][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.10-22.53.32:385][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/' took 0.01s
+[2020.11.10-22.53.32:849][  0]SourceControl: Source control is disabled
+[2020.11.10-22.53.32:850][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.777
+[2020.11.10-22.53.32:850][  0]LightingResults: New page: Lighting Build
+[2020.11.10-22.53.32:852][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.10-22.53.32:852][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.10-22.53.32:852][  0]MapCheck: New page: Map Check
+[2020.11.10-22.53.32:852][  0]LightingResults: New page: Lighting Build
+[2020.11.10-22.53.32:873][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002246834DC00), frame # 0
+[2020.11.10-22.53.32:873][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000224683A0A40), frame # 0
+[2020.11.10-22.53.32:874][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.11.10-22.53.33:205][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:206][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:210][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:210][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:213][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:213][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:214][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:214][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:221][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:221][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.11.10-22.53.33:222][  0]LogLinker: Warning: While loading '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData': Can't find file.
+[2020.11.10-22.53.33:222][  0]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2020.11.10-22.53.33:424][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.10-22.53.33:424][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000224547F2200), frame # 0
+[2020.11.10-22.53.33:424][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000224548D8900), frame # 0
+[2020.11.10-22.53.33:441][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.10-22.53.33:469][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.11.10-22.53.33:469][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.10-22.53.33:469][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.3ms to complete.
+[2020.11.10-22.53.33:469][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.620
+[2020.11.10-22.53.33:472][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.400
+[2020.11.10-22.53.33:638][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-22.53.33:653][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-22.53.33:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-22.53.33:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.10-22.53.33:697][  0]LogCollectionManager: Loaded 0 collections in 0.004048 seconds
+[2020.11.10-22.53.33:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/Collections/' took 0.00s
+[2020.11.10-22.53.33:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/Developers/edene/Collections/' took 0.00s
+[2020.11.10-22.53.33:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/Collections/' took 0.00s
+[2020.11.10-22.53.33:732][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 3427 classes and 821 folders.
+[2020.11.10-22.53.33:738][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.10-22.53.33:851][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.10-22.53.33:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.11.10-22.53.33:942][  0]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.10-22.53.33:947][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.10-22.53.33:958][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.10-22.53.34:093][  0]LogRenderer: Reallocating scene render targets to support 908x432 Format 10 NumSamples 1 (Frame:1).
+[2020.11.10-22.53.34:372][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.11.10-22.53.34:372][  0]LogLoad: (Engine Initialization) Total time: 17.30 seconds
+[2020.11.10-22.53.34:372][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.10-22.53.34:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.10-22.53.34:588][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.10-22.53.34:597][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.10-22.53.34:622][  1]LogAssetRegistry: Asset discovery search completed in 8.7710 seconds
+[2020.11.10-22.53.34:631][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.11.10-22.53.38:444][275]LogSlate: Window 'Message Log' being destroyed
+[2020.11.10-22.53.38:459][275]LogSlate: Window 'Message Log' being destroyed
+[2020.11.10-23.12.11:671][954]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{72b084c9-3e7d-495d-8182-7adb4fd5a4aa}.
+[2020.11.10-23.12.11:671][954]LogTemp: Resetting audio stream to device id 
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 4: BackLeft
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 5: BackRight
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 6: SideLeft
+[2020.11.10-23.12.12:198][954]LogAudioMixer: Display: 7: SideRight
+[2020.11.10-23.12.39:088][ 35]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{37934ad4-1840-4d11-ac30-0519232ad3e2}.
+[2020.11.10-23.12.39:088][ 35]LogTemp: Resetting audio stream to device id 
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 1: FrontRight
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 2: FrontCenter
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 3: LowFrequency
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 4: BackLeft
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 5: BackRight
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 6: SideLeft
+[2020.11.10-23.12.39:291][ 35]LogAudioMixer: Display: 7: SideRight
+[2020.11.10-23.16.55:829][866]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.10-23.16.55:864][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.11.10-23.16.55:867][866]LogMetaData: Removing '/Game/FirstPersonBP/Notes/NoteWidgetBlueprint.SKEL_NoteWidgetBlueprint_C' ref from Metadata '/Game/FirstPersonBP/Notes/NewWidgetBlueprint.PackageMetaData'
+[2020.11.10-23.16.55:867][866]LogMetaData: Removing '/Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint_C' ref from Metadata '/Game/FirstPersonBP/Notes/NewWidgetBlueprint.PackageMetaData'
+[2020.11.10-23.16.55:867][866]LogMetaData: Removing '/Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Notes/NewWidgetBlueprint.PackageMetaData'
+[2020.11.10-23.16.55:867][866]LogMetaData: Removing '/Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Notes/NewWidgetBlueprint.PackageMetaData'
+[2020.11.10-23.16.55:867][866]LogMetaData: Removing '/Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Notes/NewWidgetBlueprint.PackageMetaData'
+[2020.11.10-23.16.55:909][866]LogSavePackage: Moving '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Saved/NoteWidgetBlueprint5C96DE364D5FCBD7171AE1ACEF3DE6AA.tmp' to '../../../../../../Users/edene/Desktop/gameJamFall2020/Games-Den-Fall-2020-Game-Jam/Untitled_Ghost_Game/Content/FirstPersonBP/Notes/NoteWidgetBlueprint.uasset'
+[2020.11.10-23.16.55:998][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.11.10-23.16.56:014][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.11.10-23.16.56:023][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.11.10-23.16.56:063][866]AssetCheck: New page: Asset Save: NoteWidgetBlueprint
+[2020.11.10-23.16.56:063][866]LogContentValidation: Display: Validating WidgetBlueprint /Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint
+[2020.11.10-23.21.50:530][ 50]LogAssetEditorSubsystem: Opening Asset editor for MediaTexture /Game/FirstPersonBP/Notes/NewMediaTexture.NewMediaTexture
+[2020.11.10-23.21.50:538][ 50]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.11.10-23.22.29:105][869]LogSlate: Window 'NewMediaTexture' being destroyed
+[2020.11.10-23.22.29:111][869]LogSlate: Window 'NewMediaTexture' being destroyed
+[2020.11.10-23.22.42:213][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.11.10-23.22.44:309][383]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.10-23.22.44:366][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.11.10-23.23.10:783][ 40]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Notes/NoteWidgetBlueprint.NoteWidgetBlueprint
+[2020.11.10-23.23.10:967][ 40]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.11.10-23.23.12:134][ 40]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.10-23.24.00:344][109]LogSlate: Window 'Color Picker' being destroyed
+[2020.11.10-23.28.03:172][414]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/edene/Downloads/placeHolderNote.jpg)
+[2020.11.10-23.28.03:181][414]LogTexture: Display: Building textures: placeHolderNote (BGRA8, 626X626)
+[2020.11.10-23.30.29:510][856]LogSlate: Window 'Message' being destroyed
+[2020.11.10-23.30.29:515][856]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/FirstPersonBP/Notes/placeHolderNote
+[2020.11.10-23.30.29:516][856]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/edene/Downloads/placeHolderNote.jpg)
+[2020.11.10-23.30.33:181][856]LogSlate: Window 'Message' being destroyed
+[2020.11.10-23.30.33:187][856]Message dialog closed, result: Yes, title: Message, text: You are about to import 'placeHolderNote' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2020.11.10-23.30.33:191][856]LogTexture: Display: Building textures: placeHolderNote (BGRA8, 512X250)
+[2020.11.10-23.30.35:728][ 67]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.11.10-23.30.37:652][ 69]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.10-23.30.37:652][ 69]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: === Critical error: ===
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp] [Line: 855] 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: Rendering thread exception:
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: Assertion failed: ObjectWeakPtr.IsValid(bEvenIfPendingKill, bThreadSafe) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUTextureResource.cpp] [Line: 54] 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: Texture placeHolderNote has become invalid.  This means the resource was garbage collected while slate was using it
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffb0e4e3e49 KERNELBASE.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa066ec66 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa0672048 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa03fe52d UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa03897c5 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa038bb00 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7ebd774e UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7eb84168 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7eb93e39 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7eb9a17c UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7eb911f5 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffa7eba3cce UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa01a87d8 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa01a8aa3 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffab9c4f892 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffab9c553d4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa06904db UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffaa0687eb0 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffb0fa77034 KERNEL32.DLL!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: [Callstack] 0x00007ffb10d1cec1 ntdll.dll!UnknownFunction []
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:660][ 69]LogWindows: Error: 
+[2020.11.10-23.30.37:680][ 69]LogExit: Executing StaticShutdownAfterError
+[2020.11.10-23.30.37:688][ 69]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.11.10-23.30.37:688][ 69]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.11.10-23.30.37:698][ 69]Log file closed, 11/10/20 16:30:37
