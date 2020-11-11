@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+*.ini
+*.log
+*.json
+**\AutoScreenshot.png
+Untitled_Ghost_Game/Intermediate/CachedAssetRegistry.bin
+Untitled_Ghost_Game/Saved/AutoScreenshot.png
