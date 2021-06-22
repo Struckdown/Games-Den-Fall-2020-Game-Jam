@@ -3,6 +3,8 @@
 
 Untitled Ghost Game
 
+Play on itch.io : https://dkrammer.itch.io/untitled-ghost-game
+
 A game about venturing through the woods. You're alone... Or are you?
 
 Made by:
